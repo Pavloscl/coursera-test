@@ -1,12 +1,12 @@
 {
   "name": "git-test",
   "version": "1.0.0",
-  "description": "\"This is a test directory\"",
-  "main": "index.html.txt",
+  "description": "This is the Git and Node basic learning project",
+  "main": "index.html",
   "scripts": {
     "start": "npm run lite",
-    "test": "echo \"Error: no test specified\" && exit 1"
-    "lite":"lite-server"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -14,11 +14,8 @@
   },
   "author": "Pablo Quijano",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Pavloscl/cousera-test/issues"
-  },
-  "homepage": "https://github.com/Pavloscl/cousera-test#readme",
+  "homepage": "https://bitbucket.org/jogesh_k_muppala/git-test#readme",
   "devDependencies": {
-    "lite-server": "^2.6.1"
+    "lite-server": "^2.2.2"
   }
 }
